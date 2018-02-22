@@ -5,7 +5,7 @@ package com.tecmm.tala.repaso;
  */
 
 public class Program8 {
-    public void Getname(String name,int count){
+    public static void Getname(String name,int count){
         for (int i = 0; i < count; i++)
             System.out.println(name);
     }

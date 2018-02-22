@@ -5,7 +5,7 @@ package com.tecmm.tala.repaso;
  */
 
 public class Program3 {
-    public void Getgrades(double C){
+    public static void Getgrades(double C){
         double F,K;
         F = C + 273;
         K = (C*1.8) + 32;

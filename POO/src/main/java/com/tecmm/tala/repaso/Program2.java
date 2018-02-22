@@ -5,9 +5,9 @@ package com.tecmm.tala.repaso;
  */
 
 public class Program2 {
-    public double Setprice(double price){
+    public static void Setprice(float price){
         double result;
-        result = price * 0.16;
-        return result + price;
+        result =  price * 0.16;
+        System.out.print("Total: "+ result + price);
     }
 }

@@ -5,10 +5,10 @@ package com.tecmm.tala.repaso;
  */
 
 public class Program1 {
-    public static void SetArea(double base, double height){
-        double result;
+    public static void SetArea(float base, float height){
+        float result;
         result = (base * height)/2;
-        System.out.println(result);
+        System.out.println("El area es: "+result);
     }
 
 }

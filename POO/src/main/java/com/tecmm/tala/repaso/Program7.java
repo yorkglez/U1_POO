@@ -6,9 +6,7 @@ package com.tecmm.tala.repaso;
 
 public class Program7 {
     public void Getnumbers(double number){
-        if (number > 0 && number < 8)
-            System.out.println("Error!");
-        else{
+        if (number > 0 && number < 8){
             String result = "";
             if (number == 1)
                 result = "I";
@@ -26,6 +24,7 @@ public class Program7 {
                 result = "VII";
             System.out.println(result);
         }
-
+        else
+            System.out.println("Error!");
     }
 }

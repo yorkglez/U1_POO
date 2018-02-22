@@ -5,12 +5,12 @@ package com.tecmm.tala.repaso;
  */
 
 public class Program5 {
-    public double Getnumber(double number){
+    public static void Getnumber(double number){
         double result;
         if (number < 50)
             result = number * 2;
         else
             result = number * 3;
-        return result;
+        System.out.println(result);
     }
 }

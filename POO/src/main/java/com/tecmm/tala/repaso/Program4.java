@@ -5,7 +5,7 @@ package com.tecmm.tala.repaso;
  */
 
 public class Program4 {
-    public void Sethours(int hour){
+    public  static void Sethours(int hour){
         int result;
         if (hour == 0)
             result = 12;
