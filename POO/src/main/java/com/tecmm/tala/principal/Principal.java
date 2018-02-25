@@ -1,7 +1,19 @@
-package com.tecmm.tala.repaso;
+package com.tecmm.tala.principal;
 
+import com.tecmm.tala.repaso.Program1;
+import com.tecmm.tala.repaso.Program10;
+import com.tecmm.tala.repaso.Program2;
+import com.tecmm.tala.repaso.Program3;
+import com.tecmm.tala.repaso.Program4;
+import com.tecmm.tala.repaso.Program5;
+import com.tecmm.tala.repaso.Program6;
+import com.tecmm.tala.repaso.Program7;
+import com.tecmm.tala.repaso.Program8;
+import com.tecmm.tala.repaso.Program9;
 import java.util.Scanner;
-
+/**
+ * Created by York on 2/25/2018.
+ */
 public class Principal {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -81,9 +93,6 @@ public class Principal {
                 n1 =  in.nextFloat();
                 P10.Setfactory((int)n1);
                 break;
-            default:
-
         }
     }
-
 }
